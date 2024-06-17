@@ -1,11 +1,11 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 
 using namespace std;
 
 void ex1()
 {
-    cout << "Задание №1\n";
+    cout << "\r\nЗадание 1\r\n";
     
     string text;
     getline (cin, text);
@@ -29,7 +29,7 @@ void ex1()
 
 void ex2()
 {
-    cout << "Задание №2\n";
+    cout << "\r\nЗадание 2\r\n";
 
     string people[] {"Tom", "Alice", "Sam", "Bob", "Kate"};
     cout << "Изначальный список имён: Tom, Alice, Sam, Bob, Kate\n";
@@ -64,7 +64,7 @@ void ex2()
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    cout << "Практика №1\r\n";
+    cout << "Практика 1 | Вариант 8\r\n";
     ex1();
     ex2();
     
